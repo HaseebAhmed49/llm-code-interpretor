@@ -26,8 +26,9 @@ git clone "repository-url"
         1. Run the command "pip install pipenv" (if pipenv not installed)
      6. See this screenshot for Step 4.4 and 4.5
         ```bash
-        cd f1-rag-ai
-        npm install
+        which python3
+        which pipenv
+        pip install pipenv
         ```
 5. Generate .env file and store API Keys as in image
  ```bash
