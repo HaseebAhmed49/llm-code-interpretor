@@ -34,8 +34,16 @@ OPENAI_API_KEY=your-openai-api-key
 TAVILY_API_KEY=your-tavily-api-key
 ANTHROPIC_API_KEY=your-anthropic-api-key
 ```
-6. Run "pipenv install" to install all the dependencies using pipfile
-7. Start "pipenv shell" environment in terminal (Make sure you're in working directory) ![image](https://github.com/user-attachments/assets/09759085-e140-4197-9819-af3a32168510)
+6. Install all the dependencies using pipfile
+```bash
+cd llm-code-interpretor
+pipenv install
+```
+7. Start "pipenv shell" environment in terminal (Make sure you're in working directory)
+```bash
+pipenv shell
+```
+ ![image](https://github.com/user-attachments/assets/09759085-e140-4197-9819-af3a32168510)
 8. Run the application in pycharm.
 
 ** This is a test applications. Errors and Ommissions are accepted ** 
